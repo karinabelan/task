@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\class">
+      <UniqueIdentifier>{9af0b7fb-3f11-45a1-9adc-5e61127a34e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Repository">
+      <UniqueIdentifier>{c8d816b0-aee2-4103-8fec-7d1a9eb9d56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Repository">
+      <UniqueIdentifier>{f416e3b3-261e-421c-a175-57106958ca11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\class">
+      <UniqueIdentifier>{bbe0d46e-2205-4cc0-9954-8eb4079563d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Faculty.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Lector.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Applicant.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Исходные файлы\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Исходные файлы\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRepository.h">
+      <Filter>Исходные файлы\Repository</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Lector.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Faculty.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Applicant.cpp">
+      <Filter>Файлы ресурсов\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.cpp">
+      <Filter>Файлы ресурсов\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentRepository.cpp">
+      <Filter>Файлы ресурсов\Repository</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Applicant.txt">
+      <Filter>Файлы заголовков</Filter>
+    </Text>
+    <Text Include="Person.txt">
+      <Filter>Файлы заголовков</Filter>
+    </Text>
+    <Text Include="Group.txt">
+      <Filter>Файлы заголовков</Filter>
+    </Text>
+    <Text Include="Student.txt">
+      <Filter>Файлы заголовков</Filter>
+    </Text>
+    <Text Include="Lector.txt">
+      <Filter>Файлы заголовков</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
